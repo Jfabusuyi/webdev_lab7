@@ -1,4 +1,69 @@
-td, th {
-	border: 1px solid;
-  }
-  
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-image: url('../images/space.jpg');  
+  background-size: cover;
+  color: #fff;  
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}
+
+
+h1 {
+  color: #f0f0f5;
+  font-size: 3rem;
+  text-shadow: 2px 2px 4px #000;
+  margin-bottom: 20px;
+}
+
+
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background-color: rgba(0, 0, 0, 0.7); 
+  border-radius: 10px;  
+ 
+}
+
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 15px;
+  text-align: center;
+}
+
+
+th {
+  background-color: #003366;  
+  color: #fff;  
+  font-weight: bold;
+}
+
+
+td {
+  color: #e6e6e6;
+  font-weight: 300;
+}
+
+
+td img {
+  width: 80px;  
+  height: auto;
+}
+
+
+#planets th {
+  font-weight: bold;
+  letter-spacing: 0.05em;
+}
+
+body {
+  padding: 30px;
+}
+
+h1 {
+  margin-top: 0;
+  padding-top: 20px;
+}
